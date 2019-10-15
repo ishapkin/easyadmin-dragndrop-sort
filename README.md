@@ -50,13 +50,15 @@ easy_admin:
       css:
         - '/bundles/treetop1500easyadmindragndropsort/stylesheets/easyadmin-dragndrop-sort.css'
       js:
-        - '/public/bundles/treetop1500easyadmindragndropsort/stylesheets/easyadmin-dragndrop-sort.css'
+        - '/bundles/treetop1500easyadmindragndropsort/javascripts/easyadmin-dragndrop-sort.js'
+        - 'https://cdnjs.cloudflare.com/ajax/libs/bootstrap-toggle/2.2.2/js/bootstrap2-toggle.min.js'
 ```
 ...or better yet, compile them into your JS and CSS using webpack or another package manager.
 ```
 // assets/js/app-admin.js
 require('../../public/bundles/treetop1500easyadmindragndropsort/stylesheets/easyadmin-dragndrop-sort.css');
 require('../../public/bundles/treetop1500easyadmindragndropsort/javascripts/easyadmin-dragndrop-sort.js');
+require('https://cdnjs.cloudflare.com/ajax/libs/bootstrap-toggle/2.2.2/js/bootstrap2-toggle.min.js');
 ```
 
 ### Configure your Entities
